@@ -32,12 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Label13 = new System.Windows.Forms.Label();
             this.Label12 = new System.Windows.Forms.Label();
-            this.CheckBoxamd = new System.Windows.Forms.CheckBox();
+            this.checkBoxamd = new System.Windows.Forms.CheckBox();
             this.Button1 = new System.Windows.Forms.Button();
             this.TextBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
-            this.hezhuangcpu = new System.Windows.Forms.CheckBox();
+            this.checkBoxcoregpu = new System.Windows.Forms.CheckBox();
+            this.checkboxedcpu = new System.Windows.Forms.CheckBox();
             this.checknvgpu = new System.Windows.Forms.CheckBox();
             this.checkamdgpu = new System.Windows.Forms.CheckBox();
             this.checkBoxcpu = new System.Windows.Forms.CheckBox();
@@ -45,6 +46,7 @@
             this.checkBoxgpu = new System.Windows.Forms.CheckBox();
             this.checkBoxk = new System.Windows.Forms.CheckBox();
             this.checkBoxdouble = new System.Windows.Forms.CheckBox();
+            this.checkBoxhtpc = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
@@ -59,36 +61,36 @@
             this.checkBoxssd = new System.Windows.Forms.CheckBox();
             this.Label2 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.TextBoxpower = new System.Windows.Forms.TextBox();
-            this.TextBoxpower1 = new System.Windows.Forms.TextBox();
-            this.TextBoxcpu = new System.Windows.Forms.TextBox();
-            this.TextBoxfan = new System.Windows.Forms.TextBox();
-            this.TextBoxfan1 = new System.Windows.Forms.TextBox();
-            this.TextBoxcpu1 = new System.Windows.Forms.TextBox();
+            this.textBoxpower = new System.Windows.Forms.TextBox();
+            this.textBoxpower1 = new System.Windows.Forms.TextBox();
+            this.textBoxcpu = new System.Windows.Forms.TextBox();
+            this.textBoxfan = new System.Windows.Forms.TextBox();
+            this.textBoxfan1 = new System.Windows.Forms.TextBox();
+            this.textBoxcpu1 = new System.Windows.Forms.TextBox();
             this.Label3 = new System.Windows.Forms.Label();
-            this.TextBoxbox1 = new System.Windows.Forms.TextBox();
-            this.TextBoxbox = new System.Windows.Forms.TextBox();
-            this.TextBoxmb1 = new System.Windows.Forms.TextBox();
-            this.TextBoxlcd1 = new System.Windows.Forms.TextBox();
-            this.TextBoxlcd = new System.Windows.Forms.TextBox();
-            this.TextBoxram1 = new System.Windows.Forms.TextBox();
-            this.TextBoxgpu1 = new System.Windows.Forms.TextBox();
-            this.TextBoxgpu = new System.Windows.Forms.TextBox();
-            this.TextBoxhdd1 = new System.Windows.Forms.TextBox();
+            this.textBoxbox1 = new System.Windows.Forms.TextBox();
+            this.textBoxbox = new System.Windows.Forms.TextBox();
+            this.textBoxmb1 = new System.Windows.Forms.TextBox();
+            this.textBoxlcd1 = new System.Windows.Forms.TextBox();
+            this.textBoxlcd = new System.Windows.Forms.TextBox();
+            this.textBoxram1 = new System.Windows.Forms.TextBox();
+            this.textBoxgpu1 = new System.Windows.Forms.TextBox();
+            this.textBoxgpu = new System.Windows.Forms.TextBox();
+            this.textBoxhdd1 = new System.Windows.Forms.TextBox();
             this.Label4 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.Label6 = new System.Windows.Forms.Label();
-            this.TextBoxhdd = new System.Windows.Forms.TextBox();
+            this.textBoxhdd = new System.Windows.Forms.TextBox();
             this.checkBoxfan = new System.Windows.Forms.CheckBox();
             this.Label7 = new System.Windows.Forms.Label();
             this.checkBoxbox = new System.Windows.Forms.CheckBox();
             this.label25 = new System.Windows.Forms.Label();
-            this.TextBoxram = new System.Windows.Forms.TextBox();
+            this.textBoxram = new System.Windows.Forms.TextBox();
             this.CheckBoxlcd = new System.Windows.Forms.CheckBox();
             this.checkBoxhdd = new System.Windows.Forms.CheckBox();
             this.Label8 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
-            this.TextBoxmb = new System.Windows.Forms.TextBox();
+            this.textBoxmb = new System.Windows.Forms.TextBox();
             this.Label10 = new System.Windows.Forms.Label();
             this.textBoxssd = new System.Windows.Forms.TextBox();
             this.textBoxssd1 = new System.Windows.Forms.TextBox();
@@ -100,39 +102,37 @@
             this.labeldate = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.Label11 = new System.Windows.Forms.Label();
-            this.buttonexpand = new System.Windows.Forms.Button();
-            this.ComboBoxpower = new System.Windows.Forms.ComboBox();
-            this.ComboBoxfan = new System.Windows.Forms.ComboBox();
-            this.ComboBoxbox = new System.Windows.Forms.ComboBox();
-            this.ComboBoxlcd = new System.Windows.Forms.ComboBox();
-            this.ComboBoxgpu = new System.Windows.Forms.ComboBox();
-            this.ComboBoxhdd = new System.Windows.Forms.ComboBox();
-            this.ComboBoxram = new System.Windows.Forms.ComboBox();
-            this.ComboBoxmb = new System.Windows.Forms.ComboBox();
-            this.ComboBoxcpu = new System.Windows.Forms.ComboBox();
+            this.comboBoxpower = new System.Windows.Forms.ComboBox();
+            this.comboBoxfan = new System.Windows.Forms.ComboBox();
+            this.comboBoxbox = new System.Windows.Forms.ComboBox();
+            this.comboBoxlcd = new System.Windows.Forms.ComboBox();
+            this.comboBoxgpu = new System.Windows.Forms.ComboBox();
+            this.comboBoxhdd = new System.Windows.Forms.ComboBox();
+            this.comboBoxram = new System.Windows.Forms.ComboBox();
+            this.comboBoxmb = new System.Windows.Forms.ComboBox();
+            this.comboBoxcpu = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label31 = new System.Windows.Forms.Label();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.kbsrbox = new System.Windows.Forms.TextBox();
-            this.cdromsrbox = new System.Windows.Forms.TextBox();
-            this.powersrBox = new System.Windows.Forms.TextBox();
-            this.fansrBox = new System.Windows.Forms.TextBox();
-            this.boxsrbox = new System.Windows.Forms.TextBox();
-            this.lcdsrBox = new System.Windows.Forms.TextBox();
-            this.ssdsrBox = new System.Windows.Forms.TextBox();
+            this.textBoxkbsr = new System.Windows.Forms.TextBox();
+            this.textBoxcdromsr = new System.Windows.Forms.TextBox();
+            this.textBoxpowersr = new System.Windows.Forms.TextBox();
+            this.textBoxfansr = new System.Windows.Forms.TextBox();
+            this.textBoxboxsr = new System.Windows.Forms.TextBox();
+            this.textBoxlcdsr = new System.Windows.Forms.TextBox();
+            this.textBoxssdsr = new System.Windows.Forms.TextBox();
             this.comboBoxssd = new System.Windows.Forms.ComboBox();
             this.label30 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.gpusrbox = new System.Windows.Forms.TextBox();
+            this.textBoxgpusr = new System.Windows.Forms.TextBox();
             this.comboBoxkb = new System.Windows.Forms.ComboBox();
-            this.hddsrbox = new System.Windows.Forms.TextBox();
+            this.textBoxhddsr = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.ramsrbox = new System.Windows.Forms.TextBox();
-            this.ComboBoxcdrom = new System.Windows.Forms.ComboBox();
-            this.mbsrbox = new System.Windows.Forms.TextBox();
+            this.textBoxramsr = new System.Windows.Forms.TextBox();
+            this.comboBoxcdrom = new System.Windows.Forms.ComboBox();
+            this.textBoxmbsr = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
-            this.cpusrbox = new System.Windows.Forms.TextBox();
+            this.textBoxcpusr = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -149,11 +149,14 @@
             this.启动时自动检查更新ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.检查更新ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.退出ToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.反馈建议ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pzToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
@@ -163,8 +166,6 @@
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.labelvisit = new System.Windows.Forms.Label();
             this.labelad = new System.Windows.Forms.Label();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.checkBoxhtpc = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.tableLayoutPanel10.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -180,7 +181,6 @@
             this.tableLayoutPanel3.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Label13
@@ -190,7 +190,7 @@
             this.Label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label13.Location = new System.Drawing.Point(263, 0);
             this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(34, 40);
+            this.Label13.Size = new System.Drawing.Size(34, 44);
             this.Label13.TabIndex = 50;
             this.Label13.Text = "元";
             this.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -198,28 +198,28 @@
             // Label12
             // 
             this.Label12.AutoSize = true;
-            this.Label12.Location = new System.Drawing.Point(-134, 115);
+            this.Label12.Location = new System.Drawing.Point(-134, 125);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(89, 12);
+            this.Label12.Size = new System.Drawing.Size(91, 13);
             this.Label12.TabIndex = 49;
             this.Label12.Text = "请输入预算金额";
             // 
-            // CheckBoxamd
+            // checkBoxamd
             // 
-            this.CheckBoxamd.AutoSize = true;
-            this.CheckBoxamd.Location = new System.Drawing.Point(3, 3);
-            this.CheckBoxamd.Name = "CheckBoxamd";
-            this.CheckBoxamd.Size = new System.Drawing.Size(78, 16);
-            this.CheckBoxamd.TabIndex = 48;
-            this.CheckBoxamd.Text = "AMD处理器";
-            this.CheckBoxamd.UseVisualStyleBackColor = true;
-            this.CheckBoxamd.CheckedChanged += new System.EventHandler(this.CheckBoxamd_CheckedChanged);
+            this.checkBoxamd.AutoSize = true;
+            this.checkBoxamd.Location = new System.Drawing.Point(3, 3);
+            this.checkBoxamd.Name = "checkBoxamd";
+            this.checkBoxamd.Size = new System.Drawing.Size(86, 17);
+            this.checkBoxamd.TabIndex = 48;
+            this.checkBoxamd.Text = "AMD处理器";
+            this.checkBoxamd.UseVisualStyleBackColor = true;
+            this.checkBoxamd.CheckedChanged += new System.EventHandler(this.CheckBoxamd_CheckedChanged);
             // 
             // Button1
             // 
             this.Button1.Location = new System.Drawing.Point(303, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(109, 29);
+            this.Button1.Size = new System.Drawing.Size(109, 31);
             this.Button1.TabIndex = 1;
             this.Button1.Text = "智能攒机";
             this.Button1.UseVisualStyleBackColor = true;
@@ -234,7 +234,6 @@
             this.TextBox1.Name = "TextBox1";
             this.TextBox1.Size = new System.Drawing.Size(124, 31);
             this.TextBox1.TabIndex = 0;
-            this.TextBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             this.TextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
             // groupBox1
@@ -243,7 +242,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(3, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 94);
+            this.groupBox1.Size = new System.Drawing.Size(382, 102);
             this.groupBox1.TabIndex = 51;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "配置要求";
@@ -254,9 +253,10 @@
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33332F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
             this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 60F));
-            this.tableLayoutPanel10.Controls.Add(this.CheckBoxamd, 0, 0);
-            this.tableLayoutPanel10.Controls.Add(this.hezhuangcpu, 0, 2);
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
+            this.tableLayoutPanel10.Controls.Add(this.checkBoxcoregpu, 3, 1);
+            this.tableLayoutPanel10.Controls.Add(this.checkBoxamd, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.checkboxedcpu, 0, 2);
             this.tableLayoutPanel10.Controls.Add(this.checknvgpu, 1, 0);
             this.tableLayoutPanel10.Controls.Add(this.checkamdgpu, 2, 0);
             this.tableLayoutPanel10.Controls.Add(this.checkBoxcpu, 1, 1);
@@ -266,32 +266,42 @@
             this.tableLayoutPanel10.Controls.Add(this.checkBoxdouble, 0, 1);
             this.tableLayoutPanel10.Controls.Add(this.checkBoxhtpc, 3, 0);
             this.tableLayoutPanel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 17);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel10.Name = "tableLayoutPanel10";
             this.tableLayoutPanel10.RowCount = 3;
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel10.Size = new System.Drawing.Size(337, 74);
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(376, 83);
             this.tableLayoutPanel10.TabIndex = 82;
             // 
-            // hezhuangcpu
+            // checkBoxcoregpu
             // 
-            this.hezhuangcpu.AutoSize = true;
-            this.hezhuangcpu.Location = new System.Drawing.Point(3, 51);
-            this.hezhuangcpu.Name = "hezhuangcpu";
-            this.hezhuangcpu.Size = new System.Drawing.Size(66, 16);
-            this.hezhuangcpu.TabIndex = 84;
-            this.hezhuangcpu.Text = "盒装CPU";
-            this.hezhuangcpu.UseVisualStyleBackColor = true;
-            this.hezhuangcpu.CheckedChanged += new System.EventHandler(this.hezhuangcpu_CheckedChanged);
+            this.checkBoxcoregpu.AutoSize = true;
+            this.checkBoxcoregpu.Location = new System.Drawing.Point(297, 30);
+            this.checkBoxcoregpu.Name = "checkBoxcoregpu";
+            this.checkBoxcoregpu.Size = new System.Drawing.Size(50, 17);
+            this.checkBoxcoregpu.TabIndex = 82;
+            this.checkBoxcoregpu.Text = "核显";
+            this.checkBoxcoregpu.UseVisualStyleBackColor = true;
+            // 
+            // checkboxedcpu
+            // 
+            this.checkboxedcpu.AutoSize = true;
+            this.checkboxedcpu.Location = new System.Drawing.Point(3, 57);
+            this.checkboxedcpu.Name = "checkboxedcpu";
+            this.checkboxedcpu.Size = new System.Drawing.Size(72, 17);
+            this.checkboxedcpu.TabIndex = 84;
+            this.checkboxedcpu.Text = "盒装CPU";
+            this.checkboxedcpu.UseVisualStyleBackColor = true;
+            this.checkboxedcpu.CheckedChanged += new System.EventHandler(this.hezhuangcpu_CheckedChanged);
             // 
             // checknvgpu
             // 
             this.checknvgpu.AutoSize = true;
-            this.checknvgpu.Location = new System.Drawing.Point(95, 3);
+            this.checknvgpu.Location = new System.Drawing.Point(101, 3);
             this.checknvgpu.Name = "checknvgpu";
-            this.checknvgpu.Size = new System.Drawing.Size(84, 16);
+            this.checknvgpu.Size = new System.Drawing.Size(86, 17);
             this.checknvgpu.TabIndex = 85;
             this.checknvgpu.Text = "NVIDIA显卡";
             this.checknvgpu.UseVisualStyleBackColor = true;
@@ -300,9 +310,9 @@
             // checkamdgpu
             // 
             this.checkamdgpu.AutoSize = true;
-            this.checkamdgpu.Location = new System.Drawing.Point(187, 3);
+            this.checkamdgpu.Location = new System.Drawing.Point(199, 3);
             this.checkamdgpu.Name = "checkamdgpu";
-            this.checkamdgpu.Size = new System.Drawing.Size(66, 16);
+            this.checkamdgpu.Size = new System.Drawing.Size(74, 17);
             this.checkamdgpu.TabIndex = 86;
             this.checkamdgpu.Text = "AMD显卡";
             this.checkamdgpu.UseVisualStyleBackColor = true;
@@ -311,9 +321,9 @@
             // checkBoxcpu
             // 
             this.checkBoxcpu.AutoSize = true;
-            this.checkBoxcpu.Location = new System.Drawing.Point(95, 27);
+            this.checkBoxcpu.Location = new System.Drawing.Point(101, 30);
             this.checkBoxcpu.Name = "checkBoxcpu";
-            this.checkBoxcpu.Size = new System.Drawing.Size(78, 16);
+            this.checkBoxcpu.Size = new System.Drawing.Size(84, 17);
             this.checkBoxcpu.TabIndex = 49;
             this.checkBoxcpu.Text = "较高档CPU";
             this.checkBoxcpu.UseVisualStyleBackColor = true;
@@ -321,9 +331,9 @@
             // checkBoxe3
             // 
             this.checkBoxe3.AutoSize = true;
-            this.checkBoxe3.Location = new System.Drawing.Point(187, 51);
+            this.checkBoxe3.Location = new System.Drawing.Point(199, 57);
             this.checkBoxe3.Name = "checkBoxe3";
-            this.checkBoxe3.Size = new System.Drawing.Size(60, 16);
+            this.checkBoxe3.Size = new System.Drawing.Size(64, 17);
             this.checkBoxe3.TabIndex = 83;
             this.checkBoxe3.Text = "E3 CPU";
             this.checkBoxe3.UseVisualStyleBackColor = true;
@@ -332,20 +342,19 @@
             // checkBoxgpu
             // 
             this.checkBoxgpu.AutoSize = true;
-            this.checkBoxgpu.Location = new System.Drawing.Point(187, 27);
+            this.checkBoxgpu.Location = new System.Drawing.Point(199, 30);
             this.checkBoxgpu.Name = "checkBoxgpu";
-            this.checkBoxgpu.Size = new System.Drawing.Size(84, 16);
+            this.checkBoxgpu.Size = new System.Drawing.Size(86, 17);
             this.checkBoxgpu.TabIndex = 81;
             this.checkBoxgpu.Text = "较高档显卡";
             this.checkBoxgpu.UseVisualStyleBackColor = true;
-            this.checkBoxgpu.CheckedChanged += new System.EventHandler(this.checkBoxgpu_CheckedChanged);
             // 
             // checkBoxk
             // 
             this.checkBoxk.AutoSize = true;
-            this.checkBoxk.Location = new System.Drawing.Point(95, 51);
+            this.checkBoxk.Location = new System.Drawing.Point(101, 57);
             this.checkBoxk.Name = "checkBoxk";
-            this.checkBoxk.Size = new System.Drawing.Size(86, 16);
+            this.checkBoxk.Size = new System.Drawing.Size(92, 17);
             this.checkBoxk.TabIndex = 71;
             this.checkBoxk.Text = "不锁倍频CPU";
             this.checkBoxk.UseVisualStyleBackColor = true;
@@ -354,13 +363,24 @@
             // checkBoxdouble
             // 
             this.checkBoxdouble.AutoSize = true;
-            this.checkBoxdouble.Location = new System.Drawing.Point(3, 27);
+            this.checkBoxdouble.Location = new System.Drawing.Point(3, 30);
             this.checkBoxdouble.Name = "checkBoxdouble";
-            this.checkBoxdouble.Size = new System.Drawing.Size(84, 16);
+            this.checkBoxdouble.Size = new System.Drawing.Size(86, 17);
             this.checkBoxdouble.TabIndex = 82;
             this.checkBoxdouble.Text = "双通道内存";
             this.checkBoxdouble.UseVisualStyleBackColor = true;
             this.checkBoxdouble.CheckedChanged += new System.EventHandler(this.checkBoxdouble_CheckedChanged);
+            // 
+            // checkBoxhtpc
+            // 
+            this.checkBoxhtpc.AutoSize = true;
+            this.checkBoxhtpc.Location = new System.Drawing.Point(297, 3);
+            this.checkBoxhtpc.Name = "checkBoxhtpc";
+            this.checkBoxhtpc.Size = new System.Drawing.Size(55, 17);
+            this.checkBoxhtpc.TabIndex = 87;
+            this.checkBoxhtpc.Text = "HTPC";
+            this.checkBoxhtpc.UseVisualStyleBackColor = true;
+            this.checkBoxhtpc.CheckedChanged += new System.EventHandler(this.checkBoxhtpc_CheckedChanged);
             // 
             // groupBox2
             // 
@@ -368,13 +388,12 @@
             this.groupBox2.Controls.Add(this.label26);
             this.groupBox2.Controls.Add(this.Label11);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(3, 58);
+            this.groupBox2.Location = new System.Drawing.Point(3, 63);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(430, 385);
+            this.groupBox2.Size = new System.Drawing.Size(431, 421);
             this.groupBox2.TabIndex = 58;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "参考配置单";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // tableLayoutPanel8
             // 
@@ -385,14 +404,14 @@
             this.tableLayoutPanel8.Controls.Add(this.labeltip, 0, 3);
             this.tableLayoutPanel8.Controls.Add(this.labeldate, 0, 2);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 17);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 4;
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(424, 365);
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(425, 402);
             this.tableLayoutPanel8.TabIndex = 101;
             // 
             // tableLayoutPanel7
@@ -413,36 +432,36 @@
             this.tableLayoutPanel7.Controls.Add(this.checkBoxssd, 0, 4);
             this.tableLayoutPanel7.Controls.Add(this.Label2, 1, 1);
             this.tableLayoutPanel7.Controls.Add(this.label29, 1, 4);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxpower, 2, 9);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxpower1, 3, 9);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxcpu, 2, 0);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxfan, 2, 8);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxfan1, 3, 8);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxcpu1, 3, 0);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxpower, 2, 9);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxpower1, 3, 9);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxcpu, 2, 0);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxfan, 2, 8);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxfan1, 3, 8);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxcpu1, 3, 0);
             this.tableLayoutPanel7.Controls.Add(this.Label3, 1, 2);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxbox1, 3, 7);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxbox, 2, 7);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxmb1, 3, 1);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxlcd1, 3, 6);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxlcd, 2, 6);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxram1, 3, 2);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxgpu1, 3, 5);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxgpu, 2, 5);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxhdd1, 3, 3);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxbox1, 3, 7);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxbox, 2, 7);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxmb1, 3, 1);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxlcd1, 3, 6);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxlcd, 2, 6);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxram1, 3, 2);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxgpu1, 3, 5);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxgpu, 2, 5);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxhdd1, 3, 3);
             this.tableLayoutPanel7.Controls.Add(this.Label4, 1, 3);
             this.tableLayoutPanel7.Controls.Add(this.Label5, 1, 5);
             this.tableLayoutPanel7.Controls.Add(this.Label6, 1, 6);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxhdd, 2, 3);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxhdd, 2, 3);
             this.tableLayoutPanel7.Controls.Add(this.checkBoxfan, 0, 8);
             this.tableLayoutPanel7.Controls.Add(this.Label7, 1, 7);
             this.tableLayoutPanel7.Controls.Add(this.checkBoxbox, 0, 7);
             this.tableLayoutPanel7.Controls.Add(this.label25, 1, 11);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxram, 2, 2);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxram, 2, 2);
             this.tableLayoutPanel7.Controls.Add(this.CheckBoxlcd, 0, 6);
             this.tableLayoutPanel7.Controls.Add(this.checkBoxhdd, 0, 3);
             this.tableLayoutPanel7.Controls.Add(this.Label8, 1, 8);
             this.tableLayoutPanel7.Controls.Add(this.label24, 1, 10);
-            this.tableLayoutPanel7.Controls.Add(this.TextBoxmb, 2, 1);
+            this.tableLayoutPanel7.Controls.Add(this.textBoxmb, 2, 1);
             this.tableLayoutPanel7.Controls.Add(this.Label10, 1, 9);
             this.tableLayoutPanel7.Controls.Add(this.textBoxssd, 2, 4);
             this.tableLayoutPanel7.Controls.Add(this.textBoxssd1, 3, 4);
@@ -462,7 +481,7 @@
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(418, 295);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(419, 326);
             this.tableLayoutPanel7.TabIndex = 100;
             // 
             // Label1
@@ -480,31 +499,31 @@
             this.textBoxkb1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxkb1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxkb1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxkb1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxkb1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBoxkb1.ForeColor = System.Drawing.Color.Blue;
-            this.textBoxkb1.Location = new System.Drawing.Point(355, 267);
+            this.textBoxkb1.Location = new System.Drawing.Point(356, 300);
             this.textBoxkb1.Name = "textBoxkb1";
             this.textBoxkb1.ReadOnly = true;
             this.textBoxkb1.Size = new System.Drawing.Size(60, 23);
             this.textBoxkb1.TabIndex = 96;
             this.toolTip1.SetToolTip(this.textBoxkb1, "点击查看详情");
-            this.textBoxkb1.Click += new System.EventHandler(this.textBoxkb1_Click);
+            this.textBoxkb1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
             // textBoxkb
             // 
             this.textBoxkb.BackColor = System.Drawing.SystemColors.ControlLight;
             this.textBoxkb.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxkb.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxkb.Location = new System.Drawing.Point(93, 267);
+            this.textBoxkb.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxkb.Location = new System.Drawing.Point(93, 300);
             this.textBoxkb.Name = "textBoxkb";
             this.textBoxkb.ReadOnly = true;
-            this.textBoxkb.Size = new System.Drawing.Size(256, 23);
+            this.textBoxkb.Size = new System.Drawing.Size(257, 23);
             this.textBoxkb.TabIndex = 97;
             // 
             // checkBoxkb
             // 
             this.checkBoxkb.AutoSize = true;
-            this.checkBoxkb.Location = new System.Drawing.Point(3, 267);
+            this.checkBoxkb.Location = new System.Drawing.Point(3, 300);
             this.checkBoxkb.Name = "checkBoxkb";
             this.checkBoxkb.Size = new System.Drawing.Size(14, 14);
             this.checkBoxkb.TabIndex = 91;
@@ -515,7 +534,7 @@
             this.checkBoxpower.AutoSize = true;
             this.checkBoxpower.Checked = true;
             this.checkBoxpower.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxpower.Location = new System.Drawing.Point(3, 219);
+            this.checkBoxpower.Location = new System.Drawing.Point(3, 246);
             this.checkBoxpower.Name = "checkBoxpower";
             this.checkBoxpower.Size = new System.Drawing.Size(14, 14);
             this.checkBoxpower.TabIndex = 72;
@@ -524,7 +543,7 @@
             // checkBoxcdrom
             // 
             this.checkBoxcdrom.AutoSize = true;
-            this.checkBoxcdrom.Location = new System.Drawing.Point(3, 243);
+            this.checkBoxcdrom.Location = new System.Drawing.Point(3, 273);
             this.checkBoxcdrom.Name = "checkBoxcdrom";
             this.checkBoxcdrom.Size = new System.Drawing.Size(14, 14);
             this.checkBoxcdrom.TabIndex = 90;
@@ -535,30 +554,30 @@
             this.textBoxcdrom1.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxcdrom1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxcdrom1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxcdrom1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxcdrom1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBoxcdrom1.ForeColor = System.Drawing.Color.Blue;
-            this.textBoxcdrom1.Location = new System.Drawing.Point(355, 243);
+            this.textBoxcdrom1.Location = new System.Drawing.Point(356, 273);
             this.textBoxcdrom1.Name = "textBoxcdrom1";
             this.textBoxcdrom1.ReadOnly = true;
             this.textBoxcdrom1.Size = new System.Drawing.Size(60, 23);
             this.textBoxcdrom1.TabIndex = 94;
             this.toolTip1.SetToolTip(this.textBoxcdrom1, "点击查看详情");
-            this.textBoxcdrom1.Click += new System.EventHandler(this.textBoxcdrom1_Click);
+            this.textBoxcdrom1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
             // textBoxcdrom
             // 
             this.textBoxcdrom.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxcdrom.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxcdrom.Location = new System.Drawing.Point(93, 243);
+            this.textBoxcdrom.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxcdrom.Location = new System.Drawing.Point(93, 273);
             this.textBoxcdrom.Name = "textBoxcdrom";
             this.textBoxcdrom.ReadOnly = true;
-            this.textBoxcdrom.Size = new System.Drawing.Size(256, 23);
+            this.textBoxcdrom.Size = new System.Drawing.Size(257, 23);
             this.textBoxcdrom.TabIndex = 95;
             // 
             // checkBoxssd
             // 
             this.checkBoxssd.AutoSize = true;
-            this.checkBoxssd.Location = new System.Drawing.Point(3, 99);
+            this.checkBoxssd.Location = new System.Drawing.Point(3, 111);
             this.checkBoxssd.Name = "checkBoxssd";
             this.checkBoxssd.Size = new System.Drawing.Size(14, 14);
             this.checkBoxssd.TabIndex = 99;
@@ -568,7 +587,7 @@
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(23, 24);
+            this.Label2.Location = new System.Drawing.Point(23, 27);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(43, 15);
             this.Label2.TabIndex = 71;
@@ -578,226 +597,225 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(23, 96);
+            this.label29.Location = new System.Drawing.Point(23, 108);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(58, 15);
             this.label29.TabIndex = 98;
             this.label29.Text = "固态硬盘:";
             // 
-            // TextBoxpower
+            // textBoxpower
             // 
-            this.TextBoxpower.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxpower.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxpower.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxpower.Location = new System.Drawing.Point(93, 219);
-            this.TextBoxpower.Name = "TextBoxpower";
-            this.TextBoxpower.ReadOnly = true;
-            this.TextBoxpower.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxpower.TabIndex = 56;
+            this.textBoxpower.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxpower.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxpower.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxpower.Location = new System.Drawing.Point(93, 246);
+            this.textBoxpower.Name = "textBoxpower";
+            this.textBoxpower.ReadOnly = true;
+            this.textBoxpower.Size = new System.Drawing.Size(257, 23);
+            this.textBoxpower.TabIndex = 56;
             // 
-            // TextBoxpower1
+            // textBoxpower1
             // 
-            this.TextBoxpower1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxpower1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxpower1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxpower1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxpower1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxpower1.Location = new System.Drawing.Point(355, 219);
-            this.TextBoxpower1.Name = "TextBoxpower1";
-            this.TextBoxpower1.ReadOnly = true;
-            this.TextBoxpower1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxpower1.TabIndex = 30;
-            this.toolTip1.SetToolTip(this.TextBoxpower1, "点击查看详情");
-            this.TextBoxpower1.Click += new System.EventHandler(this.TextBoxpower1_Click);
+            this.textBoxpower1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxpower1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxpower1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxpower1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxpower1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxpower1.Location = new System.Drawing.Point(356, 246);
+            this.textBoxpower1.Name = "textBoxpower1";
+            this.textBoxpower1.ReadOnly = true;
+            this.textBoxpower1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxpower1.TabIndex = 30;
+            this.toolTip1.SetToolTip(this.textBoxpower1, "点击查看详情");
+            this.textBoxpower1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxcpu
+            // textBoxcpu
             // 
-            this.TextBoxcpu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxcpu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxcpu.Location = new System.Drawing.Point(93, 3);
-            this.TextBoxcpu.Name = "TextBoxcpu";
-            this.TextBoxcpu.ReadOnly = true;
-            this.TextBoxcpu.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxcpu.TabIndex = 48;
+            this.textBoxcpu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxcpu.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxcpu.Location = new System.Drawing.Point(93, 3);
+            this.textBoxcpu.Name = "textBoxcpu";
+            this.textBoxcpu.ReadOnly = true;
+            this.textBoxcpu.Size = new System.Drawing.Size(257, 23);
+            this.textBoxcpu.TabIndex = 48;
             // 
-            // TextBoxfan
+            // textBoxfan
             // 
-            this.TextBoxfan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxfan.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxfan.Location = new System.Drawing.Point(93, 195);
-            this.TextBoxfan.Name = "TextBoxfan";
-            this.TextBoxfan.ReadOnly = true;
-            this.TextBoxfan.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxfan.TabIndex = 55;
+            this.textBoxfan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxfan.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxfan.Location = new System.Drawing.Point(93, 219);
+            this.textBoxfan.Name = "textBoxfan";
+            this.textBoxfan.ReadOnly = true;
+            this.textBoxfan.Size = new System.Drawing.Size(257, 23);
+            this.textBoxfan.TabIndex = 55;
             // 
-            // TextBoxfan1
+            // textBoxfan1
             // 
-            this.TextBoxfan1.BackColor = System.Drawing.SystemColors.Control;
-            this.TextBoxfan1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxfan1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxfan1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxfan1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxfan1.Location = new System.Drawing.Point(355, 195);
-            this.TextBoxfan1.Name = "TextBoxfan1";
-            this.TextBoxfan1.ReadOnly = true;
-            this.TextBoxfan1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxfan1.TabIndex = 28;
-            this.toolTip1.SetToolTip(this.TextBoxfan1, "点击查看详情");
-            this.TextBoxfan1.Click += new System.EventHandler(this.TextBoxfan1_Click);
+            this.textBoxfan1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxfan1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxfan1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxfan1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxfan1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxfan1.Location = new System.Drawing.Point(356, 219);
+            this.textBoxfan1.Name = "textBoxfan1";
+            this.textBoxfan1.ReadOnly = true;
+            this.textBoxfan1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxfan1.TabIndex = 28;
+            this.toolTip1.SetToolTip(this.textBoxfan1, "点击查看详情");
+            this.textBoxfan1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxcpu1
+            // textBoxcpu1
             // 
-            this.TextBoxcpu1.BackColor = System.Drawing.SystemColors.Control;
-            this.TextBoxcpu1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxcpu1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxcpu1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxcpu1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxcpu1.Location = new System.Drawing.Point(355, 3);
-            this.TextBoxcpu1.Name = "TextBoxcpu1";
-            this.TextBoxcpu1.ReadOnly = true;
-            this.TextBoxcpu1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxcpu1.TabIndex = 21;
-            this.toolTip1.SetToolTip(this.TextBoxcpu1, "点击查看详情");
-            this.TextBoxcpu1.Click += new System.EventHandler(this.TextBoxcpu1_Click);
-            this.TextBoxcpu1.TextChanged += new System.EventHandler(this.TextBoxcpu1_TextChanged);
+            this.textBoxcpu1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxcpu1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxcpu1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxcpu1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxcpu1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxcpu1.Location = new System.Drawing.Point(356, 3);
+            this.textBoxcpu1.Name = "textBoxcpu1";
+            this.textBoxcpu1.ReadOnly = true;
+            this.textBoxcpu1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxcpu1.TabIndex = 21;
+            this.toolTip1.SetToolTip(this.textBoxcpu1, "点击查看详情");
+            this.textBoxcpu1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
             // Label3
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(23, 48);
+            this.Label3.Location = new System.Drawing.Point(23, 54);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(43, 15);
             this.Label3.TabIndex = 72;
             this.Label3.Text = "内存：";
             // 
-            // TextBoxbox1
+            // textBoxbox1
             // 
-            this.TextBoxbox1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxbox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxbox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxbox1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxbox1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxbox1.Location = new System.Drawing.Point(355, 171);
-            this.TextBoxbox1.Name = "TextBoxbox1";
-            this.TextBoxbox1.ReadOnly = true;
-            this.TextBoxbox1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxbox1.TabIndex = 27;
-            this.toolTip1.SetToolTip(this.TextBoxbox1, "点击查看详情");
-            this.TextBoxbox1.Click += new System.EventHandler(this.TextBoxbox1_Click);
+            this.textBoxbox1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxbox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxbox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxbox1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxbox1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxbox1.Location = new System.Drawing.Point(356, 192);
+            this.textBoxbox1.Name = "textBoxbox1";
+            this.textBoxbox1.ReadOnly = true;
+            this.textBoxbox1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxbox1.TabIndex = 27;
+            this.toolTip1.SetToolTip(this.textBoxbox1, "点击查看详情");
+            this.textBoxbox1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxbox
+            // textBoxbox
             // 
-            this.TextBoxbox.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxbox.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxbox.Location = new System.Drawing.Point(93, 171);
-            this.TextBoxbox.Name = "TextBoxbox";
-            this.TextBoxbox.ReadOnly = true;
-            this.TextBoxbox.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxbox.TabIndex = 54;
+            this.textBoxbox.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxbox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxbox.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxbox.Location = new System.Drawing.Point(93, 192);
+            this.textBoxbox.Name = "textBoxbox";
+            this.textBoxbox.ReadOnly = true;
+            this.textBoxbox.Size = new System.Drawing.Size(257, 23);
+            this.textBoxbox.TabIndex = 54;
             // 
-            // TextBoxmb1
+            // textBoxmb1
             // 
-            this.TextBoxmb1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxmb1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxmb1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxmb1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxmb1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxmb1.Location = new System.Drawing.Point(355, 27);
-            this.TextBoxmb1.Name = "TextBoxmb1";
-            this.TextBoxmb1.ReadOnly = true;
-            this.TextBoxmb1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxmb1.TabIndex = 22;
-            this.toolTip1.SetToolTip(this.TextBoxmb1, "点击查看详情");
-            this.TextBoxmb1.Click += new System.EventHandler(this.TextBoxmb1_Click);
+            this.textBoxmb1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxmb1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxmb1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxmb1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxmb1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxmb1.Location = new System.Drawing.Point(356, 30);
+            this.textBoxmb1.Name = "textBoxmb1";
+            this.textBoxmb1.ReadOnly = true;
+            this.textBoxmb1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxmb1.TabIndex = 22;
+            this.toolTip1.SetToolTip(this.textBoxmb1, "点击查看详情");
+            this.textBoxmb1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxlcd1
+            // textBoxlcd1
             // 
-            this.TextBoxlcd1.BackColor = System.Drawing.SystemColors.Control;
-            this.TextBoxlcd1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxlcd1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxlcd1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxlcd1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxlcd1.Location = new System.Drawing.Point(355, 147);
-            this.TextBoxlcd1.Name = "TextBoxlcd1";
-            this.TextBoxlcd1.ReadOnly = true;
-            this.TextBoxlcd1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxlcd1.TabIndex = 26;
-            this.toolTip1.SetToolTip(this.TextBoxlcd1, "点击查看详情");
-            this.TextBoxlcd1.Click += new System.EventHandler(this.TextBoxlcd1_Click);
+            this.textBoxlcd1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxlcd1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxlcd1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxlcd1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxlcd1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxlcd1.Location = new System.Drawing.Point(356, 165);
+            this.textBoxlcd1.Name = "textBoxlcd1";
+            this.textBoxlcd1.ReadOnly = true;
+            this.textBoxlcd1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxlcd1.TabIndex = 26;
+            this.toolTip1.SetToolTip(this.textBoxlcd1, "点击查看详情");
+            this.textBoxlcd1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxlcd
+            // textBoxlcd
             // 
-            this.TextBoxlcd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxlcd.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxlcd.Location = new System.Drawing.Point(93, 147);
-            this.TextBoxlcd.Name = "TextBoxlcd";
-            this.TextBoxlcd.ReadOnly = true;
-            this.TextBoxlcd.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxlcd.TabIndex = 53;
+            this.textBoxlcd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxlcd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxlcd.Location = new System.Drawing.Point(93, 165);
+            this.textBoxlcd.Name = "textBoxlcd";
+            this.textBoxlcd.ReadOnly = true;
+            this.textBoxlcd.Size = new System.Drawing.Size(257, 23);
+            this.textBoxlcd.TabIndex = 53;
             // 
-            // TextBoxram1
+            // textBoxram1
             // 
-            this.TextBoxram1.BackColor = System.Drawing.SystemColors.Control;
-            this.TextBoxram1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxram1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxram1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxram1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxram1.Location = new System.Drawing.Point(355, 51);
-            this.TextBoxram1.Name = "TextBoxram1";
-            this.TextBoxram1.ReadOnly = true;
-            this.TextBoxram1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxram1.TabIndex = 23;
-            this.toolTip1.SetToolTip(this.TextBoxram1, "点击查看详情");
-            this.TextBoxram1.Click += new System.EventHandler(this.TextBoxram1_Click);
+            this.textBoxram1.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxram1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxram1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxram1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxram1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxram1.Location = new System.Drawing.Point(356, 57);
+            this.textBoxram1.Name = "textBoxram1";
+            this.textBoxram1.ReadOnly = true;
+            this.textBoxram1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxram1.TabIndex = 23;
+            this.toolTip1.SetToolTip(this.textBoxram1, "点击查看详情");
+            this.textBoxram1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxgpu1
+            // textBoxgpu1
             // 
-            this.TextBoxgpu1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxgpu1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxgpu1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxgpu1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxgpu1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxgpu1.Location = new System.Drawing.Point(355, 123);
-            this.TextBoxgpu1.Name = "TextBoxgpu1";
-            this.TextBoxgpu1.ReadOnly = true;
-            this.TextBoxgpu1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxgpu1.TabIndex = 25;
-            this.toolTip1.SetToolTip(this.TextBoxgpu1, "点击查看详情");
-            this.TextBoxgpu1.Click += new System.EventHandler(this.TextBoxgpu1_Click);
+            this.textBoxgpu1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxgpu1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxgpu1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxgpu1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxgpu1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxgpu1.Location = new System.Drawing.Point(356, 138);
+            this.textBoxgpu1.Name = "textBoxgpu1";
+            this.textBoxgpu1.ReadOnly = true;
+            this.textBoxgpu1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxgpu1.TabIndex = 25;
+            this.toolTip1.SetToolTip(this.textBoxgpu1, "点击查看详情");
+            this.textBoxgpu1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
-            // TextBoxgpu
+            // textBoxgpu
             // 
-            this.TextBoxgpu.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxgpu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxgpu.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxgpu.Location = new System.Drawing.Point(93, 123);
-            this.TextBoxgpu.Name = "TextBoxgpu";
-            this.TextBoxgpu.ReadOnly = true;
-            this.TextBoxgpu.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxgpu.TabIndex = 52;
+            this.textBoxgpu.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxgpu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxgpu.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxgpu.Location = new System.Drawing.Point(93, 138);
+            this.textBoxgpu.Name = "textBoxgpu";
+            this.textBoxgpu.ReadOnly = true;
+            this.textBoxgpu.Size = new System.Drawing.Size(257, 23);
+            this.textBoxgpu.TabIndex = 52;
             // 
-            // TextBoxhdd1
+            // textBoxhdd1
             // 
-            this.TextBoxhdd1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxhdd1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.TextBoxhdd1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxhdd1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxhdd1.ForeColor = System.Drawing.Color.Blue;
-            this.TextBoxhdd1.Location = new System.Drawing.Point(355, 75);
-            this.TextBoxhdd1.Name = "TextBoxhdd1";
-            this.TextBoxhdd1.ReadOnly = true;
-            this.TextBoxhdd1.Size = new System.Drawing.Size(60, 23);
-            this.TextBoxhdd1.TabIndex = 24;
-            this.toolTip1.SetToolTip(this.TextBoxhdd1, "点击查看详情");
-            this.TextBoxhdd1.Click += new System.EventHandler(this.TextBoxhdd1_Click);
+            this.textBoxhdd1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxhdd1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.textBoxhdd1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxhdd1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxhdd1.ForeColor = System.Drawing.Color.Blue;
+            this.textBoxhdd1.Location = new System.Drawing.Point(356, 84);
+            this.textBoxhdd1.Name = "textBoxhdd1";
+            this.textBoxhdd1.ReadOnly = true;
+            this.textBoxhdd1.Size = new System.Drawing.Size(60, 23);
+            this.textBoxhdd1.TabIndex = 24;
+            this.toolTip1.SetToolTip(this.textBoxhdd1, "点击查看详情");
+            this.textBoxhdd1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
             // Label4
             // 
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label4.Location = new System.Drawing.Point(23, 72);
+            this.Label4.Location = new System.Drawing.Point(23, 81);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(43, 15);
             this.Label4.TabIndex = 73;
@@ -807,7 +825,7 @@
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label5.Location = new System.Drawing.Point(23, 120);
+            this.Label5.Location = new System.Drawing.Point(23, 135);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(43, 15);
             this.Label5.TabIndex = 74;
@@ -817,29 +835,29 @@
             // 
             this.Label6.AutoSize = true;
             this.Label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label6.Location = new System.Drawing.Point(23, 144);
+            this.Label6.Location = new System.Drawing.Point(23, 162);
             this.Label6.Name = "Label6";
             this.Label6.Size = new System.Drawing.Size(55, 15);
             this.Label6.TabIndex = 75;
             this.Label6.Text = "显示器：";
             // 
-            // TextBoxhdd
+            // textBoxhdd
             // 
-            this.TextBoxhdd.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxhdd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxhdd.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxhdd.Location = new System.Drawing.Point(93, 75);
-            this.TextBoxhdd.Name = "TextBoxhdd";
-            this.TextBoxhdd.ReadOnly = true;
-            this.TextBoxhdd.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxhdd.TabIndex = 51;
+            this.textBoxhdd.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxhdd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxhdd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxhdd.Location = new System.Drawing.Point(93, 84);
+            this.textBoxhdd.Name = "textBoxhdd";
+            this.textBoxhdd.ReadOnly = true;
+            this.textBoxhdd.Size = new System.Drawing.Size(257, 23);
+            this.textBoxhdd.TabIndex = 51;
             // 
             // checkBoxfan
             // 
             this.checkBoxfan.AutoSize = true;
             this.checkBoxfan.Checked = true;
             this.checkBoxfan.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxfan.Location = new System.Drawing.Point(3, 195);
+            this.checkBoxfan.Location = new System.Drawing.Point(3, 219);
             this.checkBoxfan.Name = "checkBoxfan";
             this.checkBoxfan.Size = new System.Drawing.Size(14, 14);
             this.checkBoxfan.TabIndex = 75;
@@ -849,7 +867,7 @@
             // 
             this.Label7.AutoSize = true;
             this.Label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label7.Location = new System.Drawing.Point(23, 168);
+            this.Label7.Location = new System.Drawing.Point(23, 189);
             this.Label7.Name = "Label7";
             this.Label7.Size = new System.Drawing.Size(43, 15);
             this.Label7.TabIndex = 76;
@@ -860,7 +878,7 @@
             this.checkBoxbox.AutoSize = true;
             this.checkBoxbox.Checked = true;
             this.checkBoxbox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxbox.Location = new System.Drawing.Point(3, 171);
+            this.checkBoxbox.Location = new System.Drawing.Point(3, 192);
             this.checkBoxbox.Name = "checkBoxbox";
             this.checkBoxbox.Size = new System.Drawing.Size(14, 14);
             this.checkBoxbox.TabIndex = 81;
@@ -870,28 +888,28 @@
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(23, 264);
+            this.label25.Location = new System.Drawing.Point(23, 297);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(43, 15);
             this.label25.TabIndex = 93;
             this.label25.Text = "键鼠：";
             // 
-            // TextBoxram
+            // textBoxram
             // 
-            this.TextBoxram.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxram.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxram.Location = new System.Drawing.Point(93, 51);
-            this.TextBoxram.Name = "TextBoxram";
-            this.TextBoxram.ReadOnly = true;
-            this.TextBoxram.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxram.TabIndex = 50;
+            this.textBoxram.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxram.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxram.Location = new System.Drawing.Point(93, 57);
+            this.textBoxram.Name = "textBoxram";
+            this.textBoxram.ReadOnly = true;
+            this.textBoxram.Size = new System.Drawing.Size(257, 23);
+            this.textBoxram.TabIndex = 50;
             // 
             // CheckBoxlcd
             // 
             this.CheckBoxlcd.AutoSize = true;
             this.CheckBoxlcd.Checked = true;
             this.CheckBoxlcd.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CheckBoxlcd.Location = new System.Drawing.Point(3, 147);
+            this.CheckBoxlcd.Location = new System.Drawing.Point(3, 165);
             this.CheckBoxlcd.Name = "CheckBoxlcd";
             this.CheckBoxlcd.Size = new System.Drawing.Size(14, 14);
             this.CheckBoxlcd.TabIndex = 80;
@@ -902,7 +920,7 @@
             this.checkBoxhdd.AutoSize = true;
             this.checkBoxhdd.Checked = true;
             this.checkBoxhdd.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBoxhdd.Location = new System.Drawing.Point(3, 75);
+            this.checkBoxhdd.Location = new System.Drawing.Point(3, 84);
             this.checkBoxhdd.Name = "checkBoxhdd";
             this.checkBoxhdd.Size = new System.Drawing.Size(14, 14);
             this.checkBoxhdd.TabIndex = 81;
@@ -912,7 +930,7 @@
             // 
             this.Label8.AutoSize = true;
             this.Label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label8.Location = new System.Drawing.Point(23, 192);
+            this.Label8.Location = new System.Drawing.Point(23, 216);
             this.Label8.Name = "Label8";
             this.Label8.Size = new System.Drawing.Size(55, 15);
             this.Label8.TabIndex = 77;
@@ -922,28 +940,28 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(23, 240);
+            this.label24.Location = new System.Drawing.Point(23, 270);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(43, 15);
             this.label24.TabIndex = 92;
             this.label24.Text = "光驱：";
             // 
-            // TextBoxmb
+            // textBoxmb
             // 
-            this.TextBoxmb.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.TextBoxmb.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TextBoxmb.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TextBoxmb.Location = new System.Drawing.Point(93, 27);
-            this.TextBoxmb.Name = "TextBoxmb";
-            this.TextBoxmb.ReadOnly = true;
-            this.TextBoxmb.Size = new System.Drawing.Size(256, 23);
-            this.TextBoxmb.TabIndex = 49;
+            this.textBoxmb.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.textBoxmb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxmb.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxmb.Location = new System.Drawing.Point(93, 30);
+            this.textBoxmb.Name = "textBoxmb";
+            this.textBoxmb.ReadOnly = true;
+            this.textBoxmb.Size = new System.Drawing.Size(257, 23);
+            this.textBoxmb.TabIndex = 49;
             // 
             // Label10
             // 
             this.Label10.AutoSize = true;
             this.Label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label10.Location = new System.Drawing.Point(23, 216);
+            this.Label10.Location = new System.Drawing.Point(23, 243);
             this.Label10.Name = "Label10";
             this.Label10.Size = new System.Drawing.Size(43, 15);
             this.Label10.TabIndex = 79;
@@ -952,11 +970,11 @@
             // textBoxssd
             // 
             this.textBoxssd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxssd.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBoxssd.Location = new System.Drawing.Point(93, 99);
+            this.textBoxssd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxssd.Location = new System.Drawing.Point(93, 111);
             this.textBoxssd.Name = "textBoxssd";
             this.textBoxssd.ReadOnly = true;
-            this.textBoxssd.Size = new System.Drawing.Size(256, 23);
+            this.textBoxssd.Size = new System.Drawing.Size(257, 23);
             this.textBoxssd.TabIndex = 100;
             // 
             // textBoxssd1
@@ -964,15 +982,15 @@
             this.textBoxssd1.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxssd1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.textBoxssd1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxssd1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBoxssd1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBoxssd1.ForeColor = System.Drawing.Color.Blue;
-            this.textBoxssd1.Location = new System.Drawing.Point(355, 99);
+            this.textBoxssd1.Location = new System.Drawing.Point(356, 111);
             this.textBoxssd1.Name = "textBoxssd1";
             this.textBoxssd1.ReadOnly = true;
             this.textBoxssd1.Size = new System.Drawing.Size(60, 23);
             this.textBoxssd1.TabIndex = 101;
             this.toolTip1.SetToolTip(this.textBoxssd1, "点击查看详情");
-            this.textBoxssd1.Click += new System.EventHandler(this.textBoxssd1_Click);
+            this.textBoxssd1.Click += new System.EventHandler(this.TextBoxPriceClick);
             // 
             // tableLayoutPanel9
             // 
@@ -984,18 +1002,17 @@
             this.tableLayoutPanel9.Controls.Add(this.labelcopy, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.labelprint, 2, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 304);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 335);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
             this.tableLayoutPanel9.RowCount = 1;
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(418, 22);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(419, 24);
             this.tableLayoutPanel9.TabIndex = 101;
-            this.tableLayoutPanel9.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel9_Paint);
             // 
             // labelall
             // 
             this.labelall.AutoSize = true;
-            this.labelall.Font = new System.Drawing.Font("微软雅黑", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelall.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelall.Location = new System.Drawing.Point(3, 0);
             this.labelall.Name = "labelall";
             this.labelall.Size = new System.Drawing.Size(99, 20);
@@ -1008,9 +1025,9 @@
             this.labelcopy.AutoSize = true;
             this.labelcopy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelcopy.ForeColor = System.Drawing.Color.Blue;
-            this.labelcopy.Location = new System.Drawing.Point(281, 0);
+            this.labelcopy.Location = new System.Drawing.Point(282, 0);
             this.labelcopy.Name = "labelcopy";
-            this.labelcopy.Size = new System.Drawing.Size(77, 12);
+            this.labelcopy.Size = new System.Drawing.Size(79, 13);
             this.labelcopy.TabIndex = 75;
             this.labelcopy.Text = "复制到剪贴板";
             this.labelcopy.Visible = false;
@@ -1021,9 +1038,9 @@
             this.labelprint.AutoSize = true;
             this.labelprint.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelprint.ForeColor = System.Drawing.Color.Blue;
-            this.labelprint.Location = new System.Drawing.Point(381, 0);
+            this.labelprint.Location = new System.Drawing.Point(382, 0);
             this.labelprint.Name = "labelprint";
-            this.labelprint.Size = new System.Drawing.Size(29, 12);
+            this.labelprint.Size = new System.Drawing.Size(31, 13);
             this.labelprint.TabIndex = 82;
             this.labelprint.Text = "打印";
             this.labelprint.Visible = false;
@@ -1032,171 +1049,146 @@
             // labeltip
             // 
             this.labeltip.AutoSize = true;
-            this.labeltip.Location = new System.Drawing.Point(3, 347);
+            this.labeltip.Location = new System.Drawing.Point(3, 382);
             this.labeltip.Name = "labeltip";
-            this.labeltip.Size = new System.Drawing.Size(365, 12);
+            this.labeltip.Size = new System.Drawing.Size(367, 13);
             this.labeltip.TabIndex = 102;
             this.labeltip.Text = "提示：本程序显示的配置单仅供参考，如需有疑问，请到论坛发帖。";
-            this.labeltip.Click += new System.EventHandler(this.label31_Click);
             // 
             // labeldate
             // 
             this.labeldate.AutoSize = true;
-            this.labeldate.Location = new System.Drawing.Point(3, 329);
+            this.labeldate.Location = new System.Drawing.Point(3, 362);
             this.labeldate.Name = "labeldate";
-            this.labeldate.Size = new System.Drawing.Size(89, 12);
+            this.labeldate.Size = new System.Drawing.Size(91, 13);
             this.labeldate.TabIndex = 103;
             this.labeldate.Text = "价格更新日期：";
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(227, 333);
+            this.label26.Location = new System.Drawing.Point(227, 361);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(0, 12);
+            this.label26.Size = new System.Drawing.Size(0, 13);
             this.label26.TabIndex = 89;
             // 
             // Label11
             // 
             this.Label11.AutoSize = true;
-            this.Label11.Location = new System.Drawing.Point(163, 198);
+            this.Label11.Location = new System.Drawing.Point(163, 215);
             this.Label11.Name = "Label11";
-            this.Label11.Size = new System.Drawing.Size(0, 12);
+            this.Label11.Size = new System.Drawing.Size(0, 13);
             this.Label11.TabIndex = 43;
             // 
-            // buttonexpand
+            // comboBoxpower
             // 
-            this.buttonexpand.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonexpand.Location = new System.Drawing.Point(3, 194);
-            this.buttonexpand.Name = "buttonexpand";
-            this.buttonexpand.Size = new System.Drawing.Size(28, 86);
-            this.buttonexpand.TabIndex = 59;
-            this.buttonexpand.Text = ">";
-            this.toolTip1.SetToolTip(this.buttonexpand, "详细选项");
-            this.buttonexpand.UseVisualStyleBackColor = true;
-            this.buttonexpand.Click += new System.EventHandler(this.buttonexpand_Click);
+            this.comboBoxpower.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxpower.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxpower.FormattingEnabled = true;
+            this.comboBoxpower.Location = new System.Drawing.Point(66, 264);
+            this.comboBoxpower.Name = "comboBoxpower";
+            this.comboBoxpower.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxpower.TabIndex = 69;
+            this.comboBoxpower.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxpower
+            // comboBoxfan
             // 
-            this.ComboBoxpower.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxpower.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxpower.FormattingEnabled = true;
-            this.ComboBoxpower.Location = new System.Drawing.Point(66, 246);
-            this.ComboBoxpower.Name = "ComboBoxpower";
-            this.ComboBoxpower.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxpower.TabIndex = 69;
-            this.ComboBoxpower.MouseHover += new System.EventHandler(this.Comboboxpower_MouseHover);
+            this.comboBoxfan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxfan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxfan.FormattingEnabled = true;
+            this.comboBoxfan.Location = new System.Drawing.Point(66, 235);
+            this.comboBoxfan.Name = "comboBoxfan";
+            this.comboBoxfan.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxfan.TabIndex = 67;
+            this.comboBoxfan.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxfan
+            // comboBoxbox
             // 
-            this.ComboBoxfan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxfan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxfan.FormattingEnabled = true;
-            this.ComboBoxfan.Location = new System.Drawing.Point(66, 219);
-            this.ComboBoxfan.Name = "ComboBoxfan";
-            this.ComboBoxfan.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxfan.TabIndex = 67;
-            this.ComboBoxfan.MouseHover += new System.EventHandler(this.Comboboxfan_MouseHover);
+            this.comboBoxbox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxbox.FormattingEnabled = true;
+            this.comboBoxbox.Location = new System.Drawing.Point(66, 206);
+            this.comboBoxbox.Name = "comboBoxbox";
+            this.comboBoxbox.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxbox.TabIndex = 66;
+            this.comboBoxbox.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxbox
+            // comboBoxlcd
             // 
-            this.ComboBoxbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxbox.FormattingEnabled = true;
-            this.ComboBoxbox.Location = new System.Drawing.Point(66, 192);
-            this.ComboBoxbox.Name = "ComboBoxbox";
-            this.ComboBoxbox.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxbox.TabIndex = 66;
-            this.ComboBoxbox.MouseHover += new System.EventHandler(this.Comboboxbox_MouseHover);
+            this.comboBoxlcd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxlcd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxlcd.FormattingEnabled = true;
+            this.comboBoxlcd.Location = new System.Drawing.Point(66, 177);
+            this.comboBoxlcd.Name = "comboBoxlcd";
+            this.comboBoxlcd.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxlcd.TabIndex = 65;
+            this.comboBoxlcd.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxlcd
+            // comboBoxgpu
             // 
-            this.ComboBoxlcd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxlcd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxlcd.FormattingEnabled = true;
-            this.ComboBoxlcd.Location = new System.Drawing.Point(66, 165);
-            this.ComboBoxlcd.Name = "ComboBoxlcd";
-            this.ComboBoxlcd.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxlcd.TabIndex = 65;
-            this.ComboBoxlcd.MouseHover += new System.EventHandler(this.Comboboxlcd_MouseHover);
+            this.comboBoxgpu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxgpu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxgpu.FormattingEnabled = true;
+            this.comboBoxgpu.Location = new System.Drawing.Point(66, 148);
+            this.comboBoxgpu.Name = "comboBoxgpu";
+            this.comboBoxgpu.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxgpu.TabIndex = 64;
+            this.comboBoxgpu.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxgpu
+            // comboBoxhdd
             // 
-            this.ComboBoxgpu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxgpu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxgpu.FormattingEnabled = true;
-            this.ComboBoxgpu.Location = new System.Drawing.Point(66, 138);
-            this.ComboBoxgpu.Name = "ComboBoxgpu";
-            this.ComboBoxgpu.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxgpu.TabIndex = 64;
-            this.ComboBoxgpu.MouseHover += new System.EventHandler(this.Comboboxgpu_MouseHover);
+            this.comboBoxhdd.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxhdd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxhdd.FormattingEnabled = true;
+            this.comboBoxhdd.Location = new System.Drawing.Point(66, 90);
+            this.comboBoxhdd.Name = "comboBoxhdd";
+            this.comboBoxhdd.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxhdd.TabIndex = 63;
+            this.comboBoxhdd.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxhdd
+            // comboBoxram
             // 
-            this.ComboBoxhdd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxhdd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxhdd.FormattingEnabled = true;
-            this.ComboBoxhdd.Location = new System.Drawing.Point(66, 84);
-            this.ComboBoxhdd.Name = "ComboBoxhdd";
-            this.ComboBoxhdd.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxhdd.TabIndex = 63;
-            this.ComboBoxhdd.SelectedIndexChanged += new System.EventHandler(this.ComboBoxhdd_SelectedIndexChanged);
-            this.ComboBoxhdd.MouseHover += new System.EventHandler(this.Comboboxhdd_MouseHover);
+            this.comboBoxram.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxram.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxram.FormattingEnabled = true;
+            this.comboBoxram.Location = new System.Drawing.Point(66, 61);
+            this.comboBoxram.Name = "comboBoxram";
+            this.comboBoxram.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxram.TabIndex = 62;
+            this.comboBoxram.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxram
+            // comboBoxmb
             // 
-            this.ComboBoxram.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxram.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxram.FormattingEnabled = true;
-            this.ComboBoxram.Location = new System.Drawing.Point(66, 57);
-            this.ComboBoxram.Name = "ComboBoxram";
-            this.ComboBoxram.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxram.TabIndex = 62;
-            this.ComboBoxram.MouseHover += new System.EventHandler(this.Comboboxram_MouseHover);
+            this.comboBoxmb.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxmb.FormattingEnabled = true;
+            this.comboBoxmb.Location = new System.Drawing.Point(66, 32);
+            this.comboBoxmb.Name = "comboBoxmb";
+            this.comboBoxmb.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxmb.TabIndex = 61;
+            this.comboBoxmb.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // ComboBoxmb
+            // comboBoxcpu
             // 
-            this.ComboBoxmb.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxmb.FormattingEnabled = true;
-            this.ComboBoxmb.Location = new System.Drawing.Point(66, 30);
-            this.ComboBoxmb.Name = "ComboBoxmb";
-            this.ComboBoxmb.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxmb.TabIndex = 61;
-            this.ComboBoxmb.MouseHover += new System.EventHandler(this.Comboboxmb_MouseHover);
-            // 
-            // ComboBoxcpu
-            // 
-            this.ComboBoxcpu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxcpu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxcpu.FormattingEnabled = true;
-            this.ComboBoxcpu.Location = new System.Drawing.Point(66, 3);
-            this.ComboBoxcpu.Name = "ComboBoxcpu";
-            this.ComboBoxcpu.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxcpu.TabIndex = 60;
-            this.ComboBoxcpu.SelectedIndexChanged += new System.EventHandler(this.ComboBoxcpu_SelectedIndexChanged);
-            this.ComboBoxcpu.MouseHover += new System.EventHandler(this.Comboboxcpu_MouseHover);
+            this.comboBoxcpu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxcpu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxcpu.FormattingEnabled = true;
+            this.comboBoxcpu.Location = new System.Drawing.Point(66, 3);
+            this.comboBoxcpu.Name = "comboBoxcpu";
+            this.comboBoxcpu.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxcpu.TabIndex = 60;
+            this.comboBoxcpu.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label31);
             this.groupBox3.Controls.Add(this.tableLayoutPanel11);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(3, 103);
+            this.groupBox3.Location = new System.Drawing.Point(3, 111);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(343, 368);
+            this.groupBox3.Size = new System.Drawing.Size(382, 403);
             this.groupBox3.TabIndex = 70;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "自定义硬件（仅供专业用户使用）  ";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(300, 0);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(29, 12);
-            this.label31.TabIndex = 100;
-            this.label31.Text = "筛选";
+            this.groupBox3.Text = "自定义硬件 方框内可手动输入硬件部分名称，进行筛选  ";
             // 
             // tableLayoutPanel11
             // 
@@ -1205,53 +1197,53 @@
             this.tableLayoutPanel11.Controls.Add(this.tableLayoutPanel12, 0, 0);
             this.tableLayoutPanel11.Controls.Add(this.label23, 0, 1);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 17);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 16);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
             this.tableLayoutPanel11.RowCount = 2;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(337, 348);
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(376, 384);
             this.tableLayoutPanel11.TabIndex = 99;
             // 
             // tableLayoutPanel12
             // 
             this.tableLayoutPanel12.ColumnCount = 3;
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 63F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 85F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel12.Controls.Add(this.kbsrbox, 2, 11);
-            this.tableLayoutPanel12.Controls.Add(this.cdromsrbox, 2, 10);
-            this.tableLayoutPanel12.Controls.Add(this.powersrBox, 2, 9);
-            this.tableLayoutPanel12.Controls.Add(this.fansrBox, 2, 8);
-            this.tableLayoutPanel12.Controls.Add(this.boxsrbox, 2, 7);
-            this.tableLayoutPanel12.Controls.Add(this.lcdsrBox, 2, 6);
-            this.tableLayoutPanel12.Controls.Add(this.ssdsrBox, 2, 4);
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel12.Controls.Add(this.textBoxkbsr, 2, 11);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxcdromsr, 2, 10);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxpowersr, 2, 9);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxfansr, 2, 8);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxboxsr, 2, 7);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxlcdsr, 2, 6);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxssdsr, 2, 4);
             this.tableLayoutPanel12.Controls.Add(this.comboBoxssd, 1, 4);
             this.tableLayoutPanel12.Controls.Add(this.label30, 0, 4);
             this.tableLayoutPanel12.Controls.Add(this.label22, 0, 0);
-            this.tableLayoutPanel12.Controls.Add(this.gpusrbox, 2, 5);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxgpusr, 2, 5);
             this.tableLayoutPanel12.Controls.Add(this.comboBoxkb, 1, 11);
-            this.tableLayoutPanel12.Controls.Add(this.hddsrbox, 2, 3);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxhddsr, 2, 3);
             this.tableLayoutPanel12.Controls.Add(this.label21, 0, 1);
-            this.tableLayoutPanel12.Controls.Add(this.ramsrbox, 2, 2);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxcdrom, 1, 10);
-            this.tableLayoutPanel12.Controls.Add(this.mbsrbox, 2, 1);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxramsr, 2, 2);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxcdrom, 1, 10);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxmbsr, 2, 1);
             this.tableLayoutPanel12.Controls.Add(this.label27, 0, 11);
-            this.tableLayoutPanel12.Controls.Add(this.cpusrbox, 2, 0);
+            this.tableLayoutPanel12.Controls.Add(this.textBoxcpusr, 2, 0);
             this.tableLayoutPanel12.Controls.Add(this.label20, 0, 2);
             this.tableLayoutPanel12.Controls.Add(this.label28, 0, 10);
             this.tableLayoutPanel12.Controls.Add(this.label19, 0, 3);
             this.tableLayoutPanel12.Controls.Add(this.label18, 0, 5);
             this.tableLayoutPanel12.Controls.Add(this.label17, 0, 6);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxpower, 1, 9);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxcpu, 1, 0);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxfan, 1, 8);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxram, 1, 2);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxbox, 1, 7);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxhdd, 1, 3);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxlcd, 1, 6);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxgpu, 1, 5);
-            this.tableLayoutPanel12.Controls.Add(this.ComboBoxmb, 1, 1);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxpower, 1, 9);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxcpu, 1, 0);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxfan, 1, 8);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxram, 1, 2);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxbox, 1, 7);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxhdd, 1, 3);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxlcd, 1, 6);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxgpu, 1, 5);
+            this.tableLayoutPanel12.Controls.Add(this.comboBoxmb, 1, 1);
             this.tableLayoutPanel12.Controls.Add(this.label16, 0, 7);
             this.tableLayoutPanel12.Controls.Add(this.label15, 0, 8);
             this.tableLayoutPanel12.Controls.Add(this.label14, 0, 9);
@@ -1259,101 +1251,101 @@
             this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
             this.tableLayoutPanel12.RowCount = 12;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333332F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(331, 324);
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.333333F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(370, 358);
             this.tableLayoutPanel12.TabIndex = 100;
             // 
-            // kbsrbox
+            // textBoxkbsr
             // 
-            this.kbsrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.kbsrbox.Location = new System.Drawing.Point(293, 300);
-            this.kbsrbox.Name = "kbsrbox";
-            this.kbsrbox.Size = new System.Drawing.Size(35, 21);
-            this.kbsrbox.TabIndex = 107;
-            this.toolTip1.SetToolTip(this.kbsrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxkbsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxkbsr.Location = new System.Drawing.Point(311, 322);
+            this.textBoxkbsr.Name = "textBoxkbsr";
+            this.textBoxkbsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxkbsr.TabIndex = 107;
+            this.toolTip1.SetToolTip(this.textBoxkbsr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // cdromsrbox
+            // textBoxcdromsr
             // 
-            this.cdromsrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cdromsrbox.Location = new System.Drawing.Point(293, 273);
-            this.cdromsrbox.Name = "cdromsrbox";
-            this.cdromsrbox.Size = new System.Drawing.Size(35, 21);
-            this.cdromsrbox.TabIndex = 106;
-            this.toolTip1.SetToolTip(this.cdromsrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxcdromsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxcdromsr.Location = new System.Drawing.Point(311, 293);
+            this.textBoxcdromsr.Name = "textBoxcdromsr";
+            this.textBoxcdromsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxcdromsr.TabIndex = 106;
+            this.toolTip1.SetToolTip(this.textBoxcdromsr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // powersrBox
+            // textBoxpowersr
             // 
-            this.powersrBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.powersrBox.Location = new System.Drawing.Point(293, 246);
-            this.powersrBox.Name = "powersrBox";
-            this.powersrBox.Size = new System.Drawing.Size(35, 21);
-            this.powersrBox.TabIndex = 105;
-            this.toolTip1.SetToolTip(this.powersrBox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxpowersr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxpowersr.Location = new System.Drawing.Point(311, 264);
+            this.textBoxpowersr.Name = "textBoxpowersr";
+            this.textBoxpowersr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxpowersr.TabIndex = 105;
+            this.toolTip1.SetToolTip(this.textBoxpowersr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // fansrBox
+            // textBoxfansr
             // 
-            this.fansrBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.fansrBox.Location = new System.Drawing.Point(293, 219);
-            this.fansrBox.Name = "fansrBox";
-            this.fansrBox.Size = new System.Drawing.Size(35, 21);
-            this.fansrBox.TabIndex = 104;
-            this.toolTip1.SetToolTip(this.fansrBox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxfansr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxfansr.Location = new System.Drawing.Point(311, 235);
+            this.textBoxfansr.Name = "textBoxfansr";
+            this.textBoxfansr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxfansr.TabIndex = 104;
+            this.toolTip1.SetToolTip(this.textBoxfansr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // boxsrbox
+            // textBoxboxsr
             // 
-            this.boxsrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.boxsrbox.Location = new System.Drawing.Point(293, 192);
-            this.boxsrbox.Name = "boxsrbox";
-            this.boxsrbox.Size = new System.Drawing.Size(35, 21);
-            this.boxsrbox.TabIndex = 103;
-            this.toolTip1.SetToolTip(this.boxsrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxboxsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxboxsr.Location = new System.Drawing.Point(311, 206);
+            this.textBoxboxsr.Name = "textBoxboxsr";
+            this.textBoxboxsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxboxsr.TabIndex = 103;
+            this.toolTip1.SetToolTip(this.textBoxboxsr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // lcdsrBox
+            // textBoxlcdsr
             // 
-            this.lcdsrBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lcdsrBox.Location = new System.Drawing.Point(293, 165);
-            this.lcdsrBox.Name = "lcdsrBox";
-            this.lcdsrBox.Size = new System.Drawing.Size(35, 21);
-            this.lcdsrBox.TabIndex = 102;
-            this.toolTip1.SetToolTip(this.lcdsrBox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxlcdsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxlcdsr.Location = new System.Drawing.Point(311, 177);
+            this.textBoxlcdsr.Name = "textBoxlcdsr";
+            this.textBoxlcdsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxlcdsr.TabIndex = 102;
+            this.toolTip1.SetToolTip(this.textBoxlcdsr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // ssdsrBox
+            // textBoxssdsr
             // 
-            this.ssdsrBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ssdsrBox.Location = new System.Drawing.Point(293, 111);
-            this.ssdsrBox.Name = "ssdsrBox";
-            this.ssdsrBox.Size = new System.Drawing.Size(35, 21);
-            this.ssdsrBox.TabIndex = 101;
-            this.toolTip1.SetToolTip(this.ssdsrBox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxssdsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxssdsr.Location = new System.Drawing.Point(311, 119);
+            this.textBoxssdsr.Name = "textBoxssdsr";
+            this.textBoxssdsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxssdsr.TabIndex = 101;
+            this.toolTip1.SetToolTip(this.textBoxssdsr, "可在此输入包含的硬件名称进行筛选");
             // 
             // comboBoxssd
             // 
             this.comboBoxssd.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxssd.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxssd.FormattingEnabled = true;
-            this.comboBoxssd.Location = new System.Drawing.Point(66, 111);
+            this.comboBoxssd.Location = new System.Drawing.Point(66, 119);
             this.comboBoxssd.Name = "comboBoxssd";
-            this.comboBoxssd.Size = new System.Drawing.Size(221, 20);
+            this.comboBoxssd.Size = new System.Drawing.Size(239, 21);
             this.comboBoxssd.TabIndex = 100;
-            this.comboBoxssd.MouseHover += new System.EventHandler(this.Comboboxssd_MouseHover);
+            this.comboBoxssd.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(3, 108);
+            this.label30.Location = new System.Drawing.Point(3, 116);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(53, 12);
+            this.label30.Size = new System.Drawing.Size(55, 13);
             this.label30.TabIndex = 99;
             this.label30.Text = "固态硬盘";
             // 
@@ -1362,165 +1354,164 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(3, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(23, 12);
+            this.label22.Size = new System.Drawing.Size(29, 13);
             this.label22.TabIndex = 80;
             this.label22.Text = "CPU";
             // 
-            // gpusrbox
+            // textBoxgpusr
             // 
-            this.gpusrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gpusrbox.Location = new System.Drawing.Point(293, 138);
-            this.gpusrbox.Name = "gpusrbox";
-            this.gpusrbox.Size = new System.Drawing.Size(35, 21);
-            this.gpusrbox.TabIndex = 94;
-            this.toolTip1.SetToolTip(this.gpusrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxgpusr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxgpusr.Location = new System.Drawing.Point(311, 148);
+            this.textBoxgpusr.Name = "textBoxgpusr";
+            this.textBoxgpusr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxgpusr.TabIndex = 94;
+            this.toolTip1.SetToolTip(this.textBoxgpusr, "可在此输入包含的硬件名称进行筛选");
             // 
             // comboBoxkb
             // 
             this.comboBoxkb.Dock = System.Windows.Forms.DockStyle.Fill;
             this.comboBoxkb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxkb.FormattingEnabled = true;
-            this.comboBoxkb.Location = new System.Drawing.Point(66, 300);
+            this.comboBoxkb.Location = new System.Drawing.Point(66, 322);
             this.comboBoxkb.Name = "comboBoxkb";
-            this.comboBoxkb.Size = new System.Drawing.Size(221, 20);
+            this.comboBoxkb.Size = new System.Drawing.Size(239, 21);
             this.comboBoxkb.TabIndex = 98;
-            this.comboBoxkb.SelectedIndexChanged += new System.EventHandler(this.comboBoxkb_SelectedIndexChanged);
-            this.comboBoxkb.MouseHover += new System.EventHandler(this.Comboboxkb_MouseHover);
+            this.comboBoxkb.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // hddsrbox
+            // textBoxhddsr
             // 
-            this.hddsrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.hddsrbox.Location = new System.Drawing.Point(293, 84);
-            this.hddsrbox.Name = "hddsrbox";
-            this.hddsrbox.Size = new System.Drawing.Size(35, 21);
-            this.hddsrbox.TabIndex = 93;
-            this.toolTip1.SetToolTip(this.hddsrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxhddsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxhddsr.Location = new System.Drawing.Point(311, 90);
+            this.textBoxhddsr.Name = "textBoxhddsr";
+            this.textBoxhddsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxhddsr.TabIndex = 93;
+            this.toolTip1.SetToolTip(this.textBoxhddsr, "可在此输入包含的硬件名称进行筛选");
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(3, 27);
+            this.label21.Location = new System.Drawing.Point(3, 29);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(29, 12);
+            this.label21.Size = new System.Drawing.Size(31, 13);
             this.label21.TabIndex = 81;
             this.label21.Text = "主板";
             // 
-            // ramsrbox
+            // textBoxramsr
             // 
-            this.ramsrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ramsrbox.Location = new System.Drawing.Point(293, 57);
-            this.ramsrbox.Name = "ramsrbox";
-            this.ramsrbox.Size = new System.Drawing.Size(35, 21);
-            this.ramsrbox.TabIndex = 92;
-            this.toolTip1.SetToolTip(this.ramsrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxramsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxramsr.Location = new System.Drawing.Point(311, 61);
+            this.textBoxramsr.Name = "textBoxramsr";
+            this.textBoxramsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxramsr.TabIndex = 92;
+            this.toolTip1.SetToolTip(this.textBoxramsr, "可在此输入包含的硬件名称进行筛选");
             // 
-            // ComboBoxcdrom
+            // comboBoxcdrom
             // 
-            this.ComboBoxcdrom.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ComboBoxcdrom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ComboBoxcdrom.FormattingEnabled = true;
-            this.ComboBoxcdrom.Location = new System.Drawing.Point(66, 273);
-            this.ComboBoxcdrom.Name = "ComboBoxcdrom";
-            this.ComboBoxcdrom.Size = new System.Drawing.Size(221, 20);
-            this.ComboBoxcdrom.TabIndex = 95;
-            this.ComboBoxcdrom.MouseHover += new System.EventHandler(this.Comboboxcdrom_MouseHover);
+            this.comboBoxcdrom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.comboBoxcdrom.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxcdrom.FormattingEnabled = true;
+            this.comboBoxcdrom.Location = new System.Drawing.Point(66, 293);
+            this.comboBoxcdrom.Name = "comboBoxcdrom";
+            this.comboBoxcdrom.Size = new System.Drawing.Size(239, 21);
+            this.comboBoxcdrom.TabIndex = 95;
+            this.comboBoxcdrom.MouseHover += new System.EventHandler(this.ComboBoxMouseHover);
             // 
-            // mbsrbox
+            // textBoxmbsr
             // 
-            this.mbsrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mbsrbox.Location = new System.Drawing.Point(293, 30);
-            this.mbsrbox.Name = "mbsrbox";
-            this.mbsrbox.Size = new System.Drawing.Size(35, 21);
-            this.mbsrbox.TabIndex = 91;
-            this.toolTip1.SetToolTip(this.mbsrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxmbsr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxmbsr.Location = new System.Drawing.Point(311, 32);
+            this.textBoxmbsr.Name = "textBoxmbsr";
+            this.textBoxmbsr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxmbsr.TabIndex = 91;
+            this.toolTip1.SetToolTip(this.textBoxmbsr, "可在此输入包含的硬件名称进行筛选");
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(3, 297);
+            this.label27.Location = new System.Drawing.Point(3, 319);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(29, 12);
+            this.label27.Size = new System.Drawing.Size(31, 13);
             this.label27.TabIndex = 97;
             this.label27.Text = "键鼠";
             // 
-            // cpusrbox
+            // textBoxcpusr
             // 
-            this.cpusrbox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cpusrbox.Location = new System.Drawing.Point(293, 3);
-            this.cpusrbox.Name = "cpusrbox";
-            this.cpusrbox.Size = new System.Drawing.Size(35, 21);
-            this.cpusrbox.TabIndex = 90;
-            this.toolTip1.SetToolTip(this.cpusrbox, "可在此输入包含的硬件名称进行筛选");
+            this.textBoxcpusr.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxcpusr.Location = new System.Drawing.Point(311, 3);
+            this.textBoxcpusr.Name = "textBoxcpusr";
+            this.textBoxcpusr.Size = new System.Drawing.Size(56, 20);
+            this.textBoxcpusr.TabIndex = 90;
+            this.toolTip1.SetToolTip(this.textBoxcpusr, "可在此输入包含的硬件名称进行筛选");
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(3, 54);
+            this.label20.Location = new System.Drawing.Point(3, 58);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(29, 12);
+            this.label20.Size = new System.Drawing.Size(31, 13);
             this.label20.TabIndex = 82;
             this.label20.Text = "内存";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(3, 270);
+            this.label28.Location = new System.Drawing.Point(3, 290);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(29, 12);
+            this.label28.Size = new System.Drawing.Size(31, 13);
             this.label28.TabIndex = 96;
             this.label28.Text = "光驱";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(3, 81);
+            this.label19.Location = new System.Drawing.Point(3, 87);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(29, 12);
+            this.label19.Size = new System.Drawing.Size(31, 13);
             this.label19.TabIndex = 83;
             this.label19.Text = "硬盘";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 135);
+            this.label18.Location = new System.Drawing.Point(3, 145);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(29, 12);
+            this.label18.Size = new System.Drawing.Size(31, 13);
             this.label18.TabIndex = 84;
             this.label18.Text = "显卡";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 162);
+            this.label17.Location = new System.Drawing.Point(3, 174);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 12);
+            this.label17.Size = new System.Drawing.Size(43, 13);
             this.label17.TabIndex = 85;
             this.label17.Text = "显示器";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 189);
+            this.label16.Location = new System.Drawing.Point(3, 203);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(29, 12);
+            this.label16.Size = new System.Drawing.Size(31, 13);
             this.label16.TabIndex = 86;
             this.label16.Text = "机箱";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(3, 216);
+            this.label15.Location = new System.Drawing.Point(3, 232);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 12);
+            this.label15.Size = new System.Drawing.Size(43, 13);
             this.label15.TabIndex = 87;
             this.label15.Text = "散热器";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 243);
+            this.label14.Location = new System.Drawing.Point(3, 261);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(29, 12);
+            this.label14.Size = new System.Drawing.Size(31, 13);
             this.label14.TabIndex = 88;
             this.label14.Text = "电源";
             // 
@@ -1529,9 +1520,9 @@
             this.label23.AutoSize = true;
             this.label23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label23.ForeColor = System.Drawing.Color.Blue;
-            this.label23.Location = new System.Drawing.Point(3, 330);
+            this.label23.Location = new System.Drawing.Point(3, 364);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(65, 12);
+            this.label23.Size = new System.Drawing.Size(67, 13);
             this.label23.TabIndex = 89;
             this.label23.Text = "清除自定义";
             this.label23.Click += new System.EventHandler(this.label23_Click);
@@ -1540,17 +1531,13 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label9.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label9.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label9.Location = new System.Drawing.Point(7, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(120, 40);
+            this.label9.Size = new System.Drawing.Size(120, 44);
             this.label9.TabIndex = 71;
             this.label9.Text = "请输入预算金额";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // toolTip1
-            // 
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
             // menuStrip1
             // 
@@ -1559,10 +1546,9 @@
             this.帮助ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(837, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(837, 24);
             this.menuStrip1.TabIndex = 78;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // 文件ToolStripMenuItem
             // 
@@ -1570,11 +1556,11 @@
             this.启动时自动检查更新ToolStripMenuItem,
             this.检查更新ToolStripMenuItem,
             this.退出ToolStripMenuItem,
+            this.toolStripMenuItem4,
             this.退出ToolStripMenuItem2});
             this.文件ToolStripMenuItem.Name = "文件ToolStripMenuItem";
-            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.文件ToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.文件ToolStripMenuItem.Text = "文件";
-            this.文件ToolStripMenuItem.Click += new System.EventHandler(this.文件ToolStripMenuItem_Click);
             // 
             // 启动时自动检查更新ToolStripMenuItem
             // 
@@ -1582,67 +1568,90 @@
             this.启动时自动检查更新ToolStripMenuItem.CheckOnClick = true;
             this.启动时自动检查更新ToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.启动时自动检查更新ToolStripMenuItem.Name = "启动时自动检查更新ToolStripMenuItem";
-            this.启动时自动检查更新ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.启动时自动检查更新ToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.启动时自动检查更新ToolStripMenuItem.Text = "启动时自动检查更新";
             this.启动时自动检查更新ToolStripMenuItem.CheckedChanged += new System.EventHandler(this.启动时自动检查更新ToolStripMenuItem_Checked);
             // 
             // 检查更新ToolStripMenuItem
             // 
             this.检查更新ToolStripMenuItem.Name = "检查更新ToolStripMenuItem";
-            this.检查更新ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.检查更新ToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.检查更新ToolStripMenuItem.Text = "检查更新";
             this.检查更新ToolStripMenuItem.Click += new System.EventHandler(this.检查更新ToolStripMenuItem_Click);
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.退出ToolStripMenuItem.Text = "原始配置文件下载";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click_1);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(191, 22);
+            this.toolStripMenuItem4.Text = "打开程序运行目录";
+            this.toolStripMenuItem4.Click += new System.EventHandler(this.toolStripMenuItem4_Click);
             // 
             // 退出ToolStripMenuItem2
             // 
             this.退出ToolStripMenuItem2.Name = "退出ToolStripMenuItem2";
-            this.退出ToolStripMenuItem2.Size = new System.Drawing.Size(184, 22);
+            this.退出ToolStripMenuItem2.Size = new System.Drawing.Size(191, 22);
             this.退出ToolStripMenuItem2.Text = "退出";
             this.退出ToolStripMenuItem2.Click += new System.EventHandler(this.退出ToolStripMenuItem2_Click);
             // 
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem3,
             this.反馈建议ToolStripMenuItem,
             this.pzToolStripMenuItem,
             this.toolStripMenuItem1,
+            this.toolStripMenuItem2,
             this.关于ToolStripMenuItem1});
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.帮助ToolStripMenuItem.Text = "帮助";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(178, 22);
+            this.toolStripMenuItem3.Text = "在线帮助";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // 反馈建议ToolStripMenuItem
             // 
             this.反馈建议ToolStripMenuItem.Name = "反馈建议ToolStripMenuItem";
-            this.反馈建议ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.反馈建议ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.反馈建议ToolStripMenuItem.Text = "反馈建议";
             this.反馈建议ToolStripMenuItem.Click += new System.EventHandler(this.反馈建议ToolStripMenuItem_Click_1);
             // 
             // pzToolStripMenuItem
             // 
             this.pzToolStripMenuItem.Name = "pzToolStripMenuItem";
-            this.pzToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.pzToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.pzToolStripMenuItem.Text = "配置文件编辑说明";
             this.pzToolStripMenuItem.Click += new System.EventHandler(this.关于ToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.toolStripMenuItem1.Text = "官方论坛";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(178, 22);
+            this.toolStripMenuItem2.Text = "升级专业版";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // 关于ToolStripMenuItem1
             // 
             this.关于ToolStripMenuItem1.Name = "关于ToolStripMenuItem1";
-            this.关于ToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.关于ToolStripMenuItem1.Size = new System.Drawing.Size(178, 22);
             this.关于ToolStripMenuItem1.Text = "关于";
             this.关于ToolStripMenuItem1.Click += new System.EventHandler(this.关于ToolStripMenuItem1_Click);
             // 
@@ -1652,19 +1661,17 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.55556F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.44444F));
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 2, 0);
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.94118F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.05882F));
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 25);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 24);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(837, 480);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(837, 523);
             this.tableLayoutPanel1.TabIndex = 81;
             // 
             // tableLayoutPanel4
@@ -1674,12 +1681,12 @@
             this.tableLayoutPanel4.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.groupBox3, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(485, 3);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(446, 3);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 108F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(349, 474);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(388, 517);
             this.tableLayoutPanel4.TabIndex = 0;
             // 
             // tableLayoutPanel3
@@ -1693,11 +1700,11 @@
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 4;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 9F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(436, 474);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(437, 517);
             this.tableLayoutPanel3.TabIndex = 82;
             // 
             // tableLayoutPanel6
@@ -1712,11 +1719,11 @@
             this.tableLayoutPanel6.Controls.Add(this.Label13, 2, 0);
             this.tableLayoutPanel6.Controls.Add(this.Button1, 3, 0);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 12);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 13);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(430, 40);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(431, 44);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // tableLayoutPanel5
@@ -1727,21 +1734,21 @@
             this.tableLayoutPanel5.Controls.Add(this.labelvisit, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.labelad, 0, 0);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 449);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 490);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 22F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(430, 22);
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(431, 24);
             this.tableLayoutPanel5.TabIndex = 60;
             // 
             // labelvisit
             // 
             this.labelvisit.AutoSize = true;
             this.labelvisit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelvisit.Font = new System.Drawing.Font("宋体", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labelvisit.Font = new System.Drawing.Font("SimSun", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.labelvisit.ForeColor = System.Drawing.Color.Blue;
-            this.labelvisit.Location = new System.Drawing.Point(287, 0);
+            this.labelvisit.Location = new System.Drawing.Point(288, 0);
             this.labelvisit.Name = "labelvisit";
             this.labelvisit.Size = new System.Drawing.Size(124, 13);
             this.labelvisit.TabIndex = 82;
@@ -1760,53 +1767,26 @@
             this.labelad.TabIndex = 59;
             this.labelad.Click += new System.EventHandler(this.label24_Click);
             // 
-            // tableLayoutPanel2
-            // 
-            this.tableLayoutPanel2.ColumnCount = 1;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Controls.Add(this.buttonexpand, 0, 1);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(445, 3);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 3;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 92F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(34, 474);
-            this.tableLayoutPanel2.TabIndex = 82;
-            // 
-            // checkBoxhtpc
-            // 
-            this.checkBoxhtpc.AutoSize = true;
-            this.checkBoxhtpc.Location = new System.Drawing.Point(279, 3);
-            this.checkBoxhtpc.Name = "checkBoxhtpc";
-            this.checkBoxhtpc.Size = new System.Drawing.Size(48, 16);
-            this.checkBoxhtpc.TabIndex = 87;
-            this.checkBoxhtpc.Text = "HTPC";
-            this.checkBoxhtpc.UseVisualStyleBackColor = true;
-            this.checkBoxhtpc.CheckedChanged += new System.EventHandler(this.checkBoxhtpc_CheckedChanged);
-            // 
             // Form1
             // 
             this.AcceptButton = this.Button1;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(837, 505);
+            this.ClientSize = new System.Drawing.Size(837, 547);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.Label12);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.MinimumSize = new System.Drawing.Size(350, 391);
+            this.MinimumSize = new System.Drawing.Size(350, 420);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "攒机助手";
             this.Activated += new System.EventHandler(this.Form1_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.groupBox1.ResumeLayout(false);
             this.tableLayoutPanel10.ResumeLayout(false);
             this.tableLayoutPanel10.PerformLayout();
@@ -1819,7 +1799,6 @@
             this.tableLayoutPanel9.ResumeLayout(false);
             this.tableLayoutPanel9.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.tableLayoutPanel11.ResumeLayout(false);
             this.tableLayoutPanel11.PerformLayout();
             this.tableLayoutPanel12.ResumeLayout(false);
@@ -1833,7 +1812,6 @@
             this.tableLayoutPanel6.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1843,50 +1821,49 @@
 
         internal System.Windows.Forms.Label Label13;
         internal System.Windows.Forms.Label Label12;
-        internal System.Windows.Forms.CheckBox CheckBoxamd;
+        internal System.Windows.Forms.CheckBox checkBoxamd;
         internal System.Windows.Forms.Button Button1;
         internal System.Windows.Forms.TextBox TextBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         internal System.Windows.Forms.GroupBox groupBox2;
         internal System.Windows.Forms.CheckBox CheckBoxlcd;
-        internal System.Windows.Forms.TextBox TextBoxcpu;
+        internal System.Windows.Forms.TextBox textBoxcpu;
         internal System.Windows.Forms.Label Label10;
-        internal System.Windows.Forms.TextBox TextBoxpower;
-        internal System.Windows.Forms.TextBox TextBoxcpu1;
+        internal System.Windows.Forms.TextBox textBoxpower;
+        internal System.Windows.Forms.TextBox textBoxcpu1;
         internal System.Windows.Forms.Label Label8;
-        internal System.Windows.Forms.TextBox TextBoxfan;
+        internal System.Windows.Forms.TextBox textBoxfan;
         internal System.Windows.Forms.Label Label7;
         internal System.Windows.Forms.Label Label11;
         internal System.Windows.Forms.Label Label6;
-        internal System.Windows.Forms.TextBox TextBoxmb1;
+        internal System.Windows.Forms.TextBox textBoxmb1;
         internal System.Windows.Forms.Label Label5;
-        internal System.Windows.Forms.TextBox TextBoxbox;
+        internal System.Windows.Forms.TextBox textBoxbox;
         internal System.Windows.Forms.Label Label4;
-        internal System.Windows.Forms.TextBox TextBoxram1;
+        internal System.Windows.Forms.TextBox textBoxram1;
         internal System.Windows.Forms.Label Label3;
-        internal System.Windows.Forms.TextBox TextBoxlcd;
+        internal System.Windows.Forms.TextBox textBoxlcd;
         internal System.Windows.Forms.Label Label2;
-        internal System.Windows.Forms.TextBox TextBoxhdd1;
+        internal System.Windows.Forms.TextBox textBoxhdd1;
         internal System.Windows.Forms.Label Label1;
-        internal System.Windows.Forms.TextBox TextBoxgpu;
-        internal System.Windows.Forms.TextBox TextBoxgpu1;
-        internal System.Windows.Forms.TextBox TextBoxhdd;
-        internal System.Windows.Forms.TextBox TextBoxlcd1;
-        internal System.Windows.Forms.TextBox TextBoxram;
-        internal System.Windows.Forms.TextBox TextBoxbox1;
-        internal System.Windows.Forms.TextBox TextBoxmb;
-        internal System.Windows.Forms.TextBox TextBoxfan1;
-        internal System.Windows.Forms.TextBox TextBoxpower1;
-        private System.Windows.Forms.Button buttonexpand;
-        internal System.Windows.Forms.ComboBox ComboBoxpower;
-        internal System.Windows.Forms.ComboBox ComboBoxfan;
-        internal System.Windows.Forms.ComboBox ComboBoxbox;
-        internal System.Windows.Forms.ComboBox ComboBoxlcd;
-        internal System.Windows.Forms.ComboBox ComboBoxgpu;
-        internal System.Windows.Forms.ComboBox ComboBoxhdd;
-        internal System.Windows.Forms.ComboBox ComboBoxram;
-        internal System.Windows.Forms.ComboBox ComboBoxmb;
-        internal System.Windows.Forms.ComboBox ComboBoxcpu;
+        internal System.Windows.Forms.TextBox textBoxgpu;
+        internal System.Windows.Forms.TextBox textBoxgpu1;
+        internal System.Windows.Forms.TextBox textBoxhdd;
+        internal System.Windows.Forms.TextBox textBoxlcd1;
+        internal System.Windows.Forms.TextBox textBoxram;
+        internal System.Windows.Forms.TextBox textBoxbox1;
+        internal System.Windows.Forms.TextBox textBoxmb;
+        internal System.Windows.Forms.TextBox textBoxfan1;
+        internal System.Windows.Forms.TextBox textBoxpower1;
+        internal System.Windows.Forms.ComboBox comboBoxpower;
+        internal System.Windows.Forms.ComboBox comboBoxfan;
+        internal System.Windows.Forms.ComboBox comboBoxbox;
+        internal System.Windows.Forms.ComboBox comboBoxlcd;
+        internal System.Windows.Forms.ComboBox comboBoxgpu;
+        internal System.Windows.Forms.ComboBox comboBoxhdd;
+        internal System.Windows.Forms.ComboBox comboBoxram;
+        internal System.Windows.Forms.ComboBox comboBoxmb;
+        internal System.Windows.Forms.ComboBox comboBoxcpu;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.CheckBox checkBoxbox;
@@ -1919,11 +1896,11 @@
         private System.Windows.Forms.Label labelprint;
         private System.Windows.Forms.PrintDialog printDialog1;
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem2;
-        private System.Windows.Forms.TextBox gpusrbox;
-        private System.Windows.Forms.TextBox hddsrbox;
-        private System.Windows.Forms.TextBox ramsrbox;
-        private System.Windows.Forms.TextBox mbsrbox;
-        private System.Windows.Forms.TextBox cpusrbox;
+        private System.Windows.Forms.TextBox textBoxgpusr;
+        private System.Windows.Forms.TextBox textBoxhddsr;
+        private System.Windows.Forms.TextBox textBoxramsr;
+        private System.Windows.Forms.TextBox textBoxmbsr;
+        private System.Windows.Forms.TextBox textBoxcpusr;
         private System.Windows.Forms.CheckBox checkBoxcdrom;
         private System.Windows.Forms.CheckBox checkBoxkb;
         internal System.Windows.Forms.TextBox textBoxkb;
@@ -1936,7 +1913,7 @@
         internal System.Windows.Forms.ComboBox comboBoxkb;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
-        internal System.Windows.Forms.ComboBox ComboBoxcdrom;
+        internal System.Windows.Forms.ComboBox comboBoxcdrom;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel7;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
@@ -1946,19 +1923,18 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel10;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         internal System.Windows.Forms.TextBox textBoxssd;
         internal System.Windows.Forms.TextBox textBoxssd1;
-        private System.Windows.Forms.TextBox kbsrbox;
-        private System.Windows.Forms.TextBox cdromsrbox;
-        private System.Windows.Forms.TextBox powersrBox;
-        private System.Windows.Forms.TextBox fansrBox;
-        private System.Windows.Forms.TextBox boxsrbox;
-        private System.Windows.Forms.TextBox lcdsrBox;
-        private System.Windows.Forms.TextBox ssdsrBox;
+        private System.Windows.Forms.TextBox textBoxkbsr;
+        private System.Windows.Forms.TextBox textBoxcdromsr;
+        private System.Windows.Forms.TextBox textBoxpowersr;
+        private System.Windows.Forms.TextBox textBoxfansr;
+        private System.Windows.Forms.TextBox textBoxboxsr;
+        private System.Windows.Forms.TextBox textBoxlcdsr;
+        private System.Windows.Forms.TextBox textBoxssdsr;
         internal System.Windows.Forms.ComboBox comboBoxssd;
         internal System.Windows.Forms.Label label30;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
@@ -1970,12 +1946,15 @@
         private System.Windows.Forms.Label labeltip;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.Label labeldate;
-        private System.Windows.Forms.CheckBox hezhuangcpu;
+        private System.Windows.Forms.CheckBox checkboxedcpu;
         private System.Windows.Forms.CheckBox checknvgpu;
         private System.Windows.Forms.CheckBox checkamdgpu;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.CheckBox checkBoxpower;
         private System.Windows.Forms.CheckBox checkBoxhtpc;
+        private System.Windows.Forms.CheckBox checkBoxcoregpu;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
 
     }
 }

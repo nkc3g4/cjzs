@@ -20,19 +20,15 @@ namespace 攒机助手
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
+            if (checkBox1.Checked)
             {
-                WTRegedit("nevercheckupdate", "1");
+                SettingFile sf = new SettingFile();
+                sf.SetValue("CheckUpdateOnStartup", "0");
+                //WTRegedit("nevercheckupdate", "1");
             }
             this.Close();
         }
-        private void WTRegedit(string name, string tovalue)
-        {
-            RegistryKey hklm = Registry.CurrentUser ;
-            RegistryKey software = hklm.OpenSubKey("SOFTWARE", true);
-            RegistryKey aimdir = software.CreateSubKey(Application.ProductName);
-            aimdir.SetValue(name, tovalue);
-        }
+      
 
         private void update_Load(object sender, EventArgs e)
         {

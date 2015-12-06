@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("攒机助手")]
+[assembly: AssemblyTitle("攒机助手免费版")]
 [assembly: AssemblyDescription("自助模拟攒机软件")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("http://bbs.luobotou.org")]
-[assembly: AssemblyProduct("攒机助手")]
-[assembly: AssemblyCopyright("Copyright  ©  2014  nkc3g4")]
+[assembly: AssemblyProduct("攒机助手免费版")]
+[assembly: AssemblyCopyright("Copyright © 2011-2015 nkc3g4 All Rights Reserved")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // 可以指定所有这些值，也可以使用“内部版本号”和“修订号”的默认值，
 // 方法是按如下所示使用“*”:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("4.7.0.0")]
-[assembly: AssemblyFileVersion("4.7.0.0")]
+[assembly: AssemblyVersion("4.9.0.0")]
+[assembly: AssemblyFileVersion("4.9.0.0")]
